@@ -62,7 +62,7 @@ form.addEventListener('submit', function(e) {
                 } else {
                     window.location.href = 'home.html';
                 }
-            }, 2000);
+            }, 2500);
         } else {
             document.getElementById('passwordError').textContent = 'Email hoặc mật khẩu không đúng';
             document.getElementById('password').classList.add('error');
